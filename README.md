@@ -1,14 +1,14 @@
-# Claude Sonnet 5.5代理API中转推荐_Catrouter中转API国内直连可试用稳定可靠的Claude Sonnet 5.5 API中转站
+# Claude Sonnet 5.5 中转站推荐：国内直连、可试用、2026 单价与接入方式
 
 > 速度与智能最均衡的一档：Terminal-Bench 4.0 从 Sonnet 5 的 10.3% 直接拉到 70.6%，价格却仍在中端区间。
 
 如果你希望在国内稳定、低延迟地调用 **Claude Sonnet 5.5**，又不想折腾网络环境、海外账号和复杂计费，那么 **CatRouter 中转API** 是一个值得优先考虑的选择。平台提供国内直连线路，兼容 OpenAI 标准协议与 Anthropic 原生 SDK，只需把 BaseURL 换成 `https://catrouter.net/v1`、Key 换成中转 Key，业务代码基本不用改。
 
-官方接入站点：[https://catrouter.net](https://catrouter.net)
+官方接入站点：[https://catrouter.net](https://catrouter.net)　｜　模型详情页：[Claude Sonnet 5.5 中转站说明](https://catrouter-net.github.io/catrouter-hub/models/claude-sonnet-5-5/)　｜　数据核对：2026-11-09
 
 ---
 
-## Claude Sonnet 5.5是什么？核心能力一览
+## Claude Sonnet 5.5 是什么：参数、跑分与版本
 
 Claude Sonnet 5.5 由 **Anthropic** 推出，发布时间 **2026年9月28日**，属于文本与推理类模型。速度与智能最均衡的一档：Terminal-Bench 4.0 从 Sonnet 5 的 10.3% 直接拉到 70.6%，价格却仍在中端区间。
 
@@ -30,7 +30,7 @@ Claude Sonnet 5.5 由 **Anthropic** 推出，发布时间 **2026年9月28日**�
 
 ---
 
-## 国内调用 Claude Sonnet 5.5 的四大现实难题
+## 国内直连 Claude Sonnet 5.5 会遇到什么
 
 即便模型能力再强，国内开发者在真实项目里往往会先撞上这三堵墙：
 
@@ -50,13 +50,13 @@ Sonnet 5.5 用于高并发业务时，官方限流会直接打乱线上 QPS 规�
 
 多语言 SDK 与 IDE 插件配置差异大，一套 Key 打通所有工具很难。
 
-这正是「中转站」存在的意义：
+这也是「Claude Sonnet 5.5 中转站」存在的意义：
 
 > **Claude Sonnet 5.5 中转站 = 国内可直连的 API 转发服务**，你只拿中转地址 + 中转 Key，请求由平台安全转发到上游，返回原始响应。
 
 ---
 
-## 为什么选 CatRouter 中转API 做 Claude Sonnet 5.5 代理
+## Claude Sonnet 5.5 中转 API 怎么选：六条判断标准
 
 **1. 稳定优先，长任务不断线**
 
@@ -84,7 +84,7 @@ Sonnet 5.5 用于高并发业务时，官方限流会直接打乱线上 QPS 规�
 
 ---
 
-## Claude Sonnet 5.5 中转站接入教程（3 分钟）
+## Claude Sonnet 5.5 国内直连怎么配（OpenAI 兼容 / Anthropic 原生）
 
 ### 第 1 步：拿地址与 Key
 
@@ -139,7 +139,7 @@ print(msg.content)
 
 ---
 
-## Claude Sonnet 5.5 适用场景
+## Claude Sonnet 5.5 适合什么场景
 
 - 线上客服与智能问答的高并发推理。
 - CI/CD 里的自动代码审查、单测生成与修复建议。
@@ -148,7 +148,7 @@ print(msg.content)
 
 ---
 
-## 常见问题 FAQ
+## 常见问题：Claude Sonnet 5.5 中转站哪个靠谱、多少钱、会不会限速
 
 **Q：Claude Sonnet 5.5 中转站哪个靠谱？**
 
@@ -166,15 +166,26 @@ A：它衡量的是命令行环境下的真实 Agent 作业能力，比单纯的
 
 A：可以。把 BaseURL 指向中转地址、Key 换成中转 Key，SDK 侧不需要改业务代码。
 
+**Q：Claude Sonnet 5.5 中转 API 多少钱？会不会比官方贵很多？**
+
+A：中转按官方价乘倍率结算，贵出来的部分买的是线路与运维。控制台能看到每次调用的输入/输出 token 与单价，先小额跑一天真实流量再判断划不划算。
+
+**Q：国内直连 Claude Sonnet 5.5 会被限速吗？**
+
+A：取决于平台的线路与并发配额。多节点线路通常会给到明确的 RPM/TPM；单线平台在晚高峰容易 429。压测时连跑 20–50 次看 P95 延迟和失败率更靠谱。
+
 **Q：中转站和自建代理怎么选？**
 
 A：自建只适合有专职运维的团队，线路、扩容、故障切换、结算都要自己扛；多数团队用中转，省下的是人力与试错时间。
 
 ---
 
-## 相关长尾关键词
+## 延伸阅读
 
-Claude Sonnet 5.5 中转站、Sonnet 5.5 代理API 推荐、Claude 中转API 稳定好用、Sonnet 5.5 低价 API、Claude 中转站 国内直连、Sonnet 5.5 高并发 中转、Claude API 免魔法 可试用、Sonnet 5.5 Terminal-Bench、Anthropic 中转平台 靠谱、Claude 5.5 家族 API。
+- [Claude Sonnet 5.5 中转站说明（参数、单价、适用场景）](https://catrouter-net.github.io/catrouter-hub/models/claude-sonnet-5-5/)
+- [2026 年中转站怎么挑：五个能当场验证的指标](https://catrouter-net.github.io/catrouter-hub/guide/)
+- [模型价格测算：一个月大概花多少](https://catrouter-net.github.io/catrouter-hub/price/)
+- [三步接入与六个常见报错](https://catrouter-net.github.io/catrouter-hub/setup/)
 
-更多模型与接入文档见 [CatRouter 中转API](https://catrouter.net)，平台聚合 500+ 主流模型，支持按量计费、免费试用与统一账单。
+全部模型索引见 [CatRouter 模型导航](https://catrouter-net.github.io/catrouter-hub/)，官方站点 [https://catrouter.net](https://catrouter.net)。
 
